@@ -6,12 +6,11 @@ var argMoveId,
 	randomNumber,
 	playerInput,
 	argButtonName,
-	buttonScissors,
 	buttonTest;
 
-buttonPaper = document.getElementById("button-paper");
-buttonRock = document.getElementById("button-rock");
-buttonScissors = document.getElementById("button-scissors");
+const buttonPaper = document.getElementById("button-paper");
+const buttonRock = document.getElementById("button-rock");
+const buttonScissors = document.getElementById("button-scissors");
 
 function buttonClicked(argButtonName) {
 	clearMessages();
